@@ -1,12 +1,1 @@
 node_modules/
-# Voeg node_modules toe aan de ignore-lijst
-echo "node_modules/" >> .gitignore
-
-# Initialiseer git en commit je project
-git init
-git add .
-git commit -m "Initial commit"
-
-# Koppel met GitHub
-git remote add origin https://github.com/gebruikersnaam/projectnaam.git
-git push -u origin master
